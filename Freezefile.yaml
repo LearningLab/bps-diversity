@@ -1,0 +1,6 @@
+common:
+
+    database: sqlite:///bps.db
+    prefix: data/
+    format: csv
+
