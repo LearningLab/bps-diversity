@@ -1,0 +1,9 @@
+# osx
+.DS_Store
+~*
+
+# python
+*.py[cod]
+
+# storage
+*.db

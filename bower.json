@@ -1,0 +1,21 @@
+{
+  "name": "bps-diversity",
+  "version": "0.0.0",
+  "authors": [
+    "chrisamico <eyeseast@gmail.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "colorbrewer": "~1.0.0",
+    "d3": "~3.4.11"
+  }
+}
