@@ -36,38 +36,38 @@ queue()
     .await(render);
 
 function render(err, data94, data14) {
-    /***
-    data = window.data = data.filter(function(d) { 
-        return _(d).chain().pick(RACE_FIELDS).values().sum().value() > 90;
-    });
-    ***/
+
     var data = window.data = {
         1994: data94,
         2014: data14
     };
 
     var rows = chart.selectAll('div.school')
-        .data(data[2014], function(d) { return d.ORGCODE; })
-      .enter()
-        .append('div')
+        .data(data[2014], function(d) { return d.ORGCODE; });
+
+    rows.enter().call(render_schools);
+
+}
+
+/***
+Render a row for each school,
+to be called on an entering selection
+***/
+function render_schools(selection) {
+    var rows = selection.append('div')
         .attr('class', 'school row');
 
     rows.append('div')
-        .attr('class', 'school-name col-md-2 col-sm-3 col-xs-5 text-right')
+        .attr('class', 'school-name col-md-3 col-sm-3 col-xs-5 text-right')
         .attr('data-school', function(d) { return d.school; })
         .text(function(d) { return d.school; });
 
     var bars = rows.append('div')
-        .attr('class', 'racial-makeup col-md-10 col-sm-9 col-xs-7')
+        .attr('class', 'racial-makeup col-md-9 col-sm-9 col-xs-7')
       .selectAll('div.race')
         .data(
             // data is k/v pairs of race, percent; id is race key
-            function(d) { return _(d).chain()
-                .pick(RACE_FIELDS)
-                .pairs()
-                .sort(function(d) { return d3.ascending(d[0]); })
-                .value(); },
-
+            extract_race_data,
             function(d) { return d[0]; });
 
     bars.enter().append('div')
@@ -76,6 +76,40 @@ function render(err, data94, data14) {
         })
         .style('width', function(d) { return x(d[1]) + '%'; })
         .style('background-color', function(d) { return color(d[0]); })
+
+}
+
+function update_schools(year) {
+    var data = window.data[year];
+
+    if (!data) {
+        console.error('No data for %s', year);
+        return;
+    };
+
+    console.log('Updating data for %s', year);
+
+    // bind new data to racial bars
+    var schools = chart.selectAll('.school')
+        .data(data, function(d) { return d.ORGCODE; });
+
+    schools.enter().call(render_schools);
+
+    schools.selectAll('.race')
+        .data(extract_race_data, function(d) { return d[0]; })
+      //.transition()
+        .style('width', function(d) { return x(d[1]) + '%'; });
+
+    schools.exit().remove();
+
+}
+
+function extract_race_data(d) { 
+    return _(d).chain()
+        .pick(RACE_FIELDS)
+        .pairs()
+        .sort(function(d) { return d3.ascending(d[0]); })
+        .value();
 }
 
 function numerics(d, i) {

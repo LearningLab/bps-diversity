@@ -18,8 +18,9 @@ NUMERIC_TYPES = {
     'Males': sqlalchemy.Numeric,
     'NativeAmerican': sqlalchemy.Numeric,
     'White': sqlalchemy.Numeric,
+    'PacificIslander': sqlalchemy.Numeric,
+
     'year': sqlalchemy.Integer,
-    #'total': sqlalchemy.Numeric,
 }
 
 
@@ -44,6 +45,10 @@ def load(f, year):
         row['district'] = district
         row['school'] = school
         row['year'] = year
+
+        # fields were renamed in later years, so rename and default to zero
+        row['PacificIslander'] = row.pop('NativeHawaiian,PacificIslander', 0)
+        row['Multi'] = row.pop('Multi-Race,Non-Hispanic', 0)
 
         # lots of error checking here
         for field in NUMERIC_TYPES:
