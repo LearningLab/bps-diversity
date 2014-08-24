@@ -77,7 +77,6 @@ function render(err, data) {
         })
         .style('width', function(d) { return x(d[1]) + '%'; })
         .style('background-color', function(d) { return color(d[0]); })
-        //.text(function(d) { return d[1]; });
 }
 
 function sum(array) {

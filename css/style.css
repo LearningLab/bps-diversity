@@ -1,5 +1,14 @@
+.school {
+    border-bottom: 1px solid #eee;
+}
+
+.school:hover {
+    background-color: #eee;
+}
+
 .school-name {
     font-size: 12px;
+    padding-right: 0;
 }
 .race {
     float: left;
