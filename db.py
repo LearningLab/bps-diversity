@@ -8,7 +8,7 @@ import sqlalchemy
 
 db = dataset.connect('sqlite:///bps.db')
 
-RACE_FIELDS = ('AfricanAmerican', 'Asian', 'Hispanic', 'NativeAmerican', 'White')
+RACE_FIELDS = ('AfricanAmerican', 'Asian', 'Hispanic', 'NativeAmerican', 'White', 'PacificIslander', 'Multi')
 
 NUMERIC_TYPES = {
     'AfricanAmerican': sqlalchemy.Numeric,
@@ -19,6 +19,7 @@ NUMERIC_TYPES = {
     'NativeAmerican': sqlalchemy.Numeric,
     'White': sqlalchemy.Numeric,
     'PacificIslander': sqlalchemy.Numeric,
+    'Multi': sqlalchemy.Numeric,
 
     'year': sqlalchemy.Integer,
 }

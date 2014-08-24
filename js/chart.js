@@ -14,13 +14,7 @@ var margin = {top: 10, right: 10, bottom: 10, left: 10}
 
 var chart = d3.select('#chart');
 
-var RACE_FIELDS = [
-    'AfricanAmerican', 
-    'Hispanic', 
-    'Asian', 
-    'White', 
-    'NativeAmerican',
-];
+RACE_FIELDS = ['AfricanAmerican', 'Asian', 'Hispanic', 'NativeAmerican', 'White', 'PacificIslander', 'Multi'];
 
 // scales, simple percents
 var x = d3.scale.linear()
