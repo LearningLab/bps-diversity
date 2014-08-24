@@ -52,12 +52,12 @@ function render_schools(selection) {
         .attr('class', 'school row');
 
     rows.append('div')
-        .attr('class', 'school-name col-md-3 col-sm-3 col-xs-5 text-right')
+        .attr('class', 'school-name col-md-3 col-sm-3 text-right') // col-xs-5
         .attr('data-school', function(d) { return d.school; })
         .text(function(d) { return d.school; });
 
     var bars = rows.append('div')
-        .attr('class', 'racial-makeup col-md-9 col-sm-9 col-xs-7')
+        .attr('class', 'racial-makeup col-md-9 col-sm-9') // col-xs-7
       .selectAll('div.race')
         .data(
             // data is k/v pairs of race, percent; id is race key
@@ -70,7 +70,6 @@ function render_schools(selection) {
         })
         .style('width', function(d) { return x(d[1]) + '%'; })
         .style('background-color', function(d) { return color(d[0]); })
-
 }
 
 function update_schools(year) {
@@ -91,7 +90,6 @@ function update_schools(year) {
 
     schools.selectAll('.race')
         .data(extract_race_data, function(d) { return d[0]; })
-      //.transition()
         .style('width', function(d) { return x(d[1]) + '%'; });
 
     schools.exit().remove();
