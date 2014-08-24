@@ -8,6 +8,8 @@ import sqlalchemy
 
 db = dataset.connect('sqlite:///bps.db')
 
+RACE_FIELDS = ('AfricanAmerican', 'Asian', 'Hispanic', 'NativeAmerican', 'White')
+
 NUMERIC_TYPES = {
     'AfricanAmerican': sqlalchemy.Numeric,
     'Asian': sqlalchemy.Numeric,
@@ -16,7 +18,8 @@ NUMERIC_TYPES = {
     'Males': sqlalchemy.Numeric,
     'NativeAmerican': sqlalchemy.Numeric,
     'White': sqlalchemy.Numeric,
-    'year': sqlalchemy.Integer
+    'year': sqlalchemy.Integer,
+    #'total': sqlalchemy.Numeric,
 }
 
 
@@ -50,6 +53,10 @@ def load(f, year):
                 print row['school']
                 print row[field]
                 raise e
+
+        # last bit, stash a total for later filtering
+        row['total'] = sum(row[d] for d in RACE_FIELDS)
+
             
     table.insert_many(reader, types=NUMERIC_TYPES)
 

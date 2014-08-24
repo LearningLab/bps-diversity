@@ -30,25 +30,24 @@ var x = d3.scale.linear()
 var color = d3.scale.category20()
     .domain(RACE_FIELDS);
 
-d3.csv('data/2014.csv').row(function(d, i) {
-    // fix numerics
-    d.AfricanAmerican = +d.AfricanAmerican;
-    d.Hispanic = +d.Hispanic;
-    d.Asian = +d.Asian;
-    d.White = +d.White;
-    d.NativeAmerican = +d.NativeAmerican;
-    d.year = +d.year;
+queue()
+    .defer(d3.csv, 'data/1994.csv', numerics)
+    .defer(d3.csv, 'data/2014.csv', numerics)
+    .await(render);
 
-    return d;
-}).get(render);
-
-function render(err, data) {
+function render(err, data94, data14) {
+    /***
     data = window.data = data.filter(function(d) { 
         return _(d).chain().pick(RACE_FIELDS).values().sum().value() > 90;
     });
+    ***/
+    var data = window.data = {
+        1994: data94,
+        2014: data14
+    };
 
     var rows = chart.selectAll('div.school')
-        .data(data, function(d) { return d.ORGCODE; })
+        .data(data[2014], function(d) { return d.ORGCODE; })
       .enter()
         .append('div')
         .attr('class', 'school row');
@@ -77,6 +76,18 @@ function render(err, data) {
         })
         .style('width', function(d) { return x(d[1]) + '%'; })
         .style('background-color', function(d) { return color(d[0]); })
+}
+
+function numerics(d, i) {
+    // fix numerics
+    d.AfricanAmerican = +d.AfricanAmerican;
+    d.Hispanic = +d.Hispanic;
+    d.Asian = +d.Asian;
+    d.White = +d.White;
+    d.NativeAmerican = +d.NativeAmerican;
+    d.year = +d.year;
+
+    return d;
 }
 
 function sum(array) {

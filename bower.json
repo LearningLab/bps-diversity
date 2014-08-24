@@ -15,7 +15,12 @@
     "tests"
   ],
   "dependencies": {
-    "colorbrewer": "~1.0.0",
-    "d3": "~3.4.11"
-  }
+    "queue-async": "~1.0.7",
+    "underscore": "~1.6.0",
+    "d3": "~3.4.11",
+    "colorbrewer": "~1.0.0"
+  },
+  "moduleType": [
+    "globals"
+  ]
 }
