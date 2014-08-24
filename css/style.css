@@ -1,0 +1,9 @@
+.school-name {
+    font-size: 12px;
+}
+.race {
+    float: left;
+    height: 1.25em;
+    margin-bottom: 1px;
+    border-right: 1px solid #fff;
+}

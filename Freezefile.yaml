@@ -4,3 +4,10 @@ common:
     prefix: data/
     format: csv
 
+exports:
+
+  - query: SELECT * FROM schools WHERE year=2014
+    filename: 2014.csv
+
+  - query: SELECT * FROM schools WHERE year=1994
+    filename: 1994.csv
