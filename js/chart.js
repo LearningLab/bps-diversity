@@ -16,6 +16,11 @@ var chart = d3.select('#chart');
 
 RACE_FIELDS = ['AfricanAmerican', 'Asian', 'Hispanic', 'NativeAmerican', 'White', 'PacificIslander', 'Multi'];
 
+var urls = {
+    1994: 'data/1994.csv',
+    2014: 'data/2014.csv'
+};
+
 // scales, simple percents
 var x = d3.scale.linear()
     .domain([0, 101])
@@ -88,12 +93,13 @@ function update_schools(year) {
 
     schools.enter().call(render_schools);
 
+    schools.exit().remove();
+
+    schools.sort(function(a, b) { return d3.ascending(a.school, b.school); });
+
     schools.selectAll('.race')
         .data(extract_race_data, function(d) { return d[0]; })
         .style('width', function(d) { return x(d[1]) + '%'; });
-
-    schools.exit().remove();
-
 }
 
 function extract_race_data(d) { 

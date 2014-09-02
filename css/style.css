@@ -1,5 +1,6 @@
 .school {
     border-bottom: 1px solid #eee;
+    overflow: hidden;
 }
 
 .school:hover {
@@ -8,11 +9,18 @@
 
 .school-name {
     font-size: 12px;
-    padding-right: 0;
+    padding-right: 20px;
 }
+
 .race {
     float: left;
     height: 1.25em;
     margin-bottom: 1px;
     border-right: 1px solid #fff;
+}
+
+@media (min-width: 768px) {
+    .school-name {
+        padding-right: 0;
+    }
 }
