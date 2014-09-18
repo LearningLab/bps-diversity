@@ -32,7 +32,6 @@ var RACE_FIELDS = _.keys(RACE_KEY).sort();
 // slider
 var slider = $('#slider').noUiSlider({
     start: 0,
-    //snap: true,
     step: 1,
     range: {
         min: 0,
