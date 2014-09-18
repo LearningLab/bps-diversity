@@ -7,6 +7,9 @@ Relies on D3, built with divs.
 Each row represents a school, divided into proportional blocks for each racial group.
 On mobile (or very narrow width), school name sits above the bar. On wider views,
 label floats left.
+
+Requires global URLS for data/urls.js
+
 ***/
 var margin = {top: 10, right: 10, bottom: 10, left: 10}
   , width = parseInt(d3.select('#chart').style('width'), 10)
@@ -26,26 +29,22 @@ var RACE_KEY = {
 
 var RACE_FIELDS = _.keys(RACE_KEY).sort();
 
-var urls = {
-    1994: 'data/1994.csv',
-    2014: 'data/2014.csv'
-};
-
 // slider
 var slider = $('#slider').noUiSlider({
     start: 0,
-    snap: true,
+    //snap: true,
+    step: 1,
     range: {
-        min: [0],
-        max: [_.size(urls) - 1]
+        min: 0,
+        max: _.size(URLS) - 1
     }
 });
 
-slider.on('set', function(e, value) {
+slider.on('slide', function(e, value) {
     value = +value;
     update_schools(value);
 
-    $('h1 .year').text(_.keys(urls)[value]);
+    $('h1 .year').text(_.keys(URLS)[value]);
 });
 
 // scales, simple percents
@@ -55,11 +54,17 @@ var x = d3.scale.linear()
 
 var color = d3.scale.category20()
     .domain(RACE_FIELDS);
-
+/*
 queue()
     .defer(d3.csv, 'data/1994.csv', numerics)
     .defer(d3.csv, 'data/2014.csv', numerics)
     .awaitAll(render);
+*/
+var q = queue();
+_.each(URLS, function(url, year) {
+    q.defer(d3.csv, url, numerics);
+});
+q.awaitAll(render);
 
 // make a legend
 d3.select('ul#legend')

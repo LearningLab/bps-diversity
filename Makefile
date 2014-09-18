@@ -9,6 +9,7 @@ db: enrollment
 
 csv: db
 	datafreeze Freezefile.yaml
+	python urls.py
 
 clean:
 	rm -rf data/csv
