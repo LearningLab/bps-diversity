@@ -6,6 +6,6 @@ common:
 
 exports:
 
-  - query: "SELECT * FROM schools WHERE total > 0 AND district = 'Boston'"
+  - query: "SELECT * FROM schools WHERE total > 0 AND district LIKE 'boston'"
     filename: "{{year}}.csv"
     mode: item

@@ -19,7 +19,7 @@ id,school,Females,AfricanAmerican,district,Males,Multi,Hispanic,Asian,ORGCODE,ye
 33777,Charlestown High,47.1,36.6,Boston,52.9,0.4,37.1,20.7,00350515,2012,0,5.1,100.0,0.1
 33778,Clarence R Edwards Middle,50,16.9,Boston,50,1.1,59.9,13.5,00350430,2012,0,8.2,100.0,0.4
 33779,Community Academy,37.8,48.6,Boston,62.2,0,48.6,0,00350518,2012,0,0,99.9,2.7
-33780,Community Academy of Science and Health,48.8,66.8,Boston,51.2,2.1,27.1,1.6,00350581,2012,0,2.4,100.0,0
+33780,Community Academy Of Science And Health,48.8,66.8,Boston,51.2,2.1,27.1,1.6,00350581,2012,0,2.4,100.0,0
 33781,Curley K-8 School,48.3,19.4,Boston,51.7,2.8,58.7,2.1,00350020,2012,0,17,100.0,0
 33782,Curtis Guild,42.9,1.5,Boston,57.1,0.4,89.4,0.4,00350062,2012,0,8.4,100.1,0
 33783,David A Ellis,50.3,35,Boston,49.7,1,63.2,0.3,00350072,2012,0.3,0.3,100.1,0
@@ -34,7 +34,7 @@ id,school,Females,AfricanAmerican,district,Males,Multi,Hispanic,Asian,ORGCODE,ye
 33793,Edison K-8,44.3,27.6,Boston,55.7,2,45.9,11.1,00350375,2012,0.1,12.2,100.0,1.1
 33794,Edward Everett,47.2,40.4,Boston,52.8,3.5,30.9,19.5,00350088,2012,0.4,5.3,100.0,0
 33795,Egleston Community High School,60.7,28.7,Boston,39.3,5.3,61.3,0,00350543,2012,0,4.7,100.0,0
-33796,ELC - West Zone,45.7,29.8,Boston,54.3,2.1,47.9,2.1,00350006,2012,0,17,100.0,1.1
+33796,Elc - West Zone,45.7,29.8,Boston,54.3,2.1,47.9,2.1,00350006,2012,0,17,100.0,1.1
 33797,Elihu Greenwood Leadership Academy,48.2,54,Boston,51.8,1.5,42.2,0.5,00350094,2012,0,1.8,100.0,0
 33798,Eliot Elementary,46.9,19.1,Boston,53.1,3.7,36.7,2.2,00350096,2012,0,38.3,100.0,0
 33799,Ellis Mendell,48.9,29.5,Boston,51.1,4.8,48,0.9,00350100,2012,0.9,15.9,100.0,0
@@ -48,7 +48,7 @@ id,school,Females,AfricanAmerican,district,Males,Multi,Hispanic,Asian,ORGCODE,ye
 33807,Haynes Early Education Center,49,40.4,Boston,51,1.5,52.5,2.5,00350010,2012,0.5,2,99.9,0.5
 33808,Henry Grew,46,49.8,Boston,54,2.3,39.6,2.3,00350135,2012,0,5.7,100.1,0.4
 33809,Higginson/Lewis K-8,46.9,52.6,Boston,53.1,1,42.1,0.7,00350377,2012,0.2,2.9,100.0,0.5
-33810,Horace Mann School for the Deaf,50,27.3,Boston,50,2.3,41.4,12.5,00350750,2012,0,16.4,99.9,0
+33810,Horace Mann School For The Deaf,50,27.3,Boston,50,2.3,41.4,12.5,00350750,2012,0,16.4,99.9,0
 33811,Hugh Roe O'Donnell,50.9,2.1,Boston,49.1,0,83,5.2,00350141,2012,0,9.7,100.0,0
 33812,Jackson Mann,46,33,Boston,54,2.5,44.1,11.7,00350013,2012,0,8.4,100.1,0.4
 33813,James Condon Elementary,49.7,34.8,Boston,50.3,3,35.8,8,00350146,2012,0.1,18,100.0,0.3
@@ -61,7 +61,7 @@ id,school,Females,AfricanAmerican,district,Males,Multi,Hispanic,Asian,ORGCODE,ye
 33820,John F Kennedy,47.7,17.2,Boston,52.3,1.8,78.7,0.3,00350166,2012,0,2.1,100.1,0
 33821,John Marshall,48.6,47.3,Boston,51.4,2.2,46.8,2,00350178,2012,0.1,1,100.0,0.6
 33822,John P Holland,49.7,38.2,Boston,50.3,1.2,44.1,15.5,00350167,2012,0,0.9,100.0,0.1
-33823,John W McCormack,44.7,36.3,Boston,55.3,1.8,41.1,10,00350179,2012,0,9.8,100.1,1.1
+33823,John W Mccormack,44.7,36.3,Boston,55.3,1.8,41.1,10,00350179,2012,0,9.8,100.1,1.1
 33824,John Winthrop,50.6,51.7,Boston,49.4,1.4,44,0.6,00350180,2012,0.9,1.4,100.0,0
 33825,Joseph J Hurley,50.6,6.4,Boston,49.4,2,75.1,0,00350182,2012,0,16.4,99.9,0
 33826,Joseph Lee,46.3,60.3,Boston,53.7,2,28.6,5.7,00350183,2012,0.3,2.6,100.1,0.6
@@ -100,8 +100,8 @@ id,school,Females,AfricanAmerican,district,Males,Multi,Hispanic,Asian,ORGCODE,ye
 33859,Samuel Adams,45.3,6.1,Boston,54.7,1.1,70.9,1.8,00350302,2012,0,20.1,100.0,0
 33860,Samuel W Mason,49.8,48.9,Boston,50.2,4.3,36.5,1.3,00350304,2012,0.9,8.2,100.1,0
 33861,Sarah Greenwood,50.4,26.9,Boston,49.6,1.3,69.8,0.8,00350308,2012,0.3,1,100.1,0
-33862,Snowden International School at Copley,53.4,37.1,Boston,46.6,1.7,43.4,9,00350690,2012,0,8.3,100.0,0.5
-33863,TechBoston Academy,43.3,64.1,Boston,56.7,1.9,24.3,4.3,00350657,2012,0.2,4.8,100.0,0.4
+33862,Snowden International School At Copley,53.4,37.1,Boston,46.6,1.7,43.4,9,00350690,2012,0,8.3,100.0,0.5
+33863,Techboston Academy,43.3,64.1,Boston,56.7,1.9,24.3,4.3,00350657,2012,0.2,4.8,100.0,0.4
 33864,The English High,43.3,36.6,Boston,56.7,1.5,56.7,1.5,00350535,2012,0.3,2.8,100.1,0.7
 33865,Thomas J Kenny,44.9,55.8,Boston,55.1,1,21.6,15.9,00350328,2012,0.7,4,100.0,1
 33866,Umana/Alighieri K-8,47.6,5.7,Boston,52.4,1.1,74,3.4,00350656,2012,0,15.6,100.1,0.3
@@ -111,7 +111,7 @@ id,school,Females,AfricanAmerican,district,Males,Multi,Hispanic,Asian,ORGCODE,ye
 33870,William E Russell,48.8,25.5,Boston,51.2,2.2,58.5,10.8,00350366,2012,0.3,2.2,100.0,0.5
 33871,William Ellery Channing,48.8,53.9,Boston,51.2,3,40.7,0.3,00350360,2012,0,2.1,100.0,0
 33872,William H Ohrenberger,49.2,25.3,Boston,50.8,2.6,51.8,3.8,00350258,2012,0.2,16.1,100.1,0.3
-33873,William McKinley,26,48,Boston,74,3.6,34.9,1,00350363,2012,0,11.6,100.1,1
+33873,William Mckinley,26,48,Boston,74,3.6,34.9,1,00350363,2012,0,11.6,100.1,1
 33874,William Monroe Trotter,48.9,65.5,Boston,51.1,1.8,31.3,0,00350370,2012,0,1.1,100.0,0.3
 33875,Winship Elementary,50.3,18.9,Boston,49.7,2.4,50,11.5,00350374,2012,0,17.2,100.0,0
 33876,Wm B Rogers Middle,43.8,61,Boston,56.2,1.5,27.1,5.4,00350470,2012,0,4.8,100.0,0.2

@@ -1,11 +1,11 @@
 id,school,Females,AfricanAmerican,district,Males,Multi,Hispanic,Asian,ORGCODE,year,PacificIslander,White,total,NativeAmerican
-20729,Academy of Public Service,45.6,70.7,Boston,54.4,0,22.6,1.7,00350502,2005,0,4.9,99.9,0
+20729,Academy Of Public Service,45.6,70.7,Boston,54.4,0,22.6,1.7,00350502,2005,0,4.9,99.9,0
 20730,Agassiz,50.2,18.9,Boston,49.8,0,76.2,0.6,00350007,2005,0,4.2,100.0,0.1
 20731,Alexander Hamilton,44.1,41,Boston,55.9,0,22.3,21.3,00350011,2005,0,15.4,100.0,0
 20732,Another Course To College,57.7,48.7,Boston,42.3,0,15.8,9.8,00350541,2005,0,24.8,100.0,0.9
 20733,Beethoven,46.6,50.3,Boston,53.4,0,18.3,6.9,00350021,2005,0,24.1,99.9,0.3
 20734,Blackstone,47.3,25.9,Boston,52.7,0,68.8,1.4,00350390,2005,0,3.5,99.9,0.3
-20735,Blue Hill Ave ECC,50.5,52.5,Boston,49.5,0,41.9,2,00350010,2005,0,3,99.9,0.5
+20735,Blue Hill Ave Ecc,50.5,52.5,Boston,49.5,0,41.9,2,00350010,2005,0,3,99.9,0.5
 20736,Boston Adult Academy,50,77.6,Boston,50,0,16.7,3.4,00350548,2005,0,2.3,100.0,0
 20737,Boston Arts Academy,57.8,51.1,Boston,42.2,0,25.4,2.3,00350546,2005,0,20.9,100.0,0.3
 20738,Boston Community Leadership Academy,59.2,60.6,Boston,40.8,0,24.4,3.2,00350558,2005,0,11.8,100.0,0
@@ -26,14 +26,14 @@ id,school,Females,AfricanAmerican,district,Males,Multi,Hispanic,Asian,ORGCODE,ye
 20753,Dearborn,49,51.5,Boston,51,0,40.8,4,00350074,2005,0,3.1,100.0,0.6
 20754,Dennis C Haley,45.3,67.2,Boston,54.7,0,23.3,1.4,00350077,2005,0,7.8,100.0,0.3
 20755,Donald Mckay,49.7,3.9,Boston,50.3,0,90.7,0.4,00350080,2005,0,5.1,100.1,0
-20756,East Boston ECC,43.5,8.3,Boston,56.5,0,74.1,1,00350009,2005,0,16.1,100.0,0.5
+20756,East Boston Ecc,43.5,8.3,Boston,56.5,0,74.1,1,00350009,2005,0,16.1,100.0,0.5
 20757,East Boston High,46.3,23.6,Boston,53.7,0,50.1,2.3,00350530,2005,0,23.6,100.0,0.4
-20758,Economics and Business Academy,45.1,75.9,Boston,54.9,0,18.6,2.7,00350524,2005,0,1.4,100.0,1.4
+20758,Economics And Business Academy,45.1,75.9,Boston,54.9,0,18.6,2.7,00350524,2005,0,1.4,100.0,1.4
 20759,Edward Everett,51.1,44.9,Boston,48.9,0,14.3,22.8,00350088,2005,0,17.6,100.0,0.4
 20760,Egleston Comm High School,57.8,77.1,Boston,42.2,0,21.7,1.2,00350543,2005,0,0,100.0,0
-20761,ELC - East Zone,48.5,76.5,Boston,51.5,0,14.4,4.5,00350005,2005,0,3,99.9,1.5
-20762,ELC - North Zone,51.7,25.5,Boston,48.3,0,31,25.5,00350003,2005,0,17.9,99.9,0
-20763,ELC - West Zone,47.6,39.8,Boston,52.4,0,36.9,1.9,00350006,2005,0,21.4,100.0,0
+20761,Elc - East Zone,48.5,76.5,Boston,51.5,0,14.4,4.5,00350005,2005,0,3,99.9,1.5
+20762,Elc - North Zone,51.7,25.5,Boston,48.3,0,31,25.5,00350003,2005,0,17.9,99.9,0
+20763,Elc - West Zone,47.6,39.8,Boston,52.4,0,36.9,1.9,00350006,2005,0,21.4,100.0,0
 20764,Elihu Greenwood,47.2,72.4,Boston,52.8,0,21.3,1.2,00350094,2005,0,4.4,100.0,0.7
 20765,Eliot Elementary,49.7,35,Boston,50.3,0,27,1.2,00350096,2005,0,35.6,100.0,1.2
 20766,Ellis Mendell,49.1,51.5,Boston,50.9,0,43.6,0.6,00350100,2005,0,4.3,100.0,0
@@ -64,7 +64,7 @@ id,school,Females,AfricanAmerican,district,Males,Multi,Hispanic,Asian,ORGCODE,ye
 20791,John F Kennedy,47.1,25.8,Boston,52.9,0,71.9,1.3,00350166,2005,0,1,100.0,0
 20792,John Marshall,47.4,62.2,Boston,52.6,0,33.3,1.3,00350178,2005,0,1.4,100.0,1.8
 20793,John P Holland,45.6,50.8,Boston,54.4,0,28.8,18.2,00350167,2005,0,1.7,99.9,0.4
-20794,John W McCormack,50.2,38.3,Boston,49.8,0,39.9,12.8,00350179,2005,0,8.9,100.0,0.1
+20794,John W Mccormack,50.2,38.3,Boston,49.8,0,39.9,12.8,00350179,2005,0,8.9,100.0,0.1
 20795,John Winthrop,51,62.3,Boston,49,0,33.9,1,00350180,2005,0,1,100.1,1.9
 20796,Joseph J Hurley,51.4,30.3,Boston,48.6,0,64.4,1.1,00350182,2005,0,4.2,100.0,0
 20797,Joseph Lee,44.2,80.3,Boston,55.8,0,11.9,3.6,00350183,2005,0,3.8,100.0,0.4
@@ -83,7 +83,7 @@ id,school,Females,AfricanAmerican,district,Males,Multi,Hispanic,Asian,ORGCODE,ye
 20810,Mary Lyon,32.8,33.6,Boston,67.2,0,18.5,7.6,00350004,2005,0,39.5,100.0,0.8
 20811,Mather,49,52.9,Boston,51,0,11.6,31.6,00350227,2005,0,3.7,100.0,0.2
 20812,Mattahunt,45.3,74.3,Boston,54.7,0,22.1,0.5,00350226,2005,0,3,99.9,0
-20813,Mattapan ECC,42.9,68.8,Boston,57.1,0,20.6,8.2,00350008,2005,0,2.4,100.0,0
+20813,Mattapan Ecc,42.9,68.8,Boston,57.1,0,20.6,8.2,00350008,2005,0,2.4,100.0,0
 20814,Maurice J Tobin,50.5,29.6,Boston,49.5,0,68.2,1.5,00350229,2005,0,0.5,100.0,0.2
 20815,Michael J Perkins,50.9,49.1,Boston,49.1,0,23.4,6.4,00350231,2005,0,21.1,100.0,0
 20816,Mildred Avenue Middle School,47.7,76.8,Boston,52.3,0,20.7,0.6,00350381,2005,0,1.7,100.0,0.2
@@ -113,7 +113,7 @@ id,school,Females,AfricanAmerican,district,Males,Multi,Hispanic,Asian,ORGCODE,ye
 20840,Samuel Adams,41,13.8,Boston,59,0,52.5,5.1,00350302,2005,0,28.1,100.0,0.5
 20841,Samuel W Mason,44.3,68,Boston,55.7,0,21.5,0,00350304,2005,0,9.6,100.0,0.9
 20842,Sarah Greenwood,52,33.9,Boston,48,0,65.1,0.3,00350308,2005,0,0.8,100.1,0
-20843,Snowden Int'l High,60.5,45.2,Boston,39.5,0,35.2,14.3,00350690,2005,0,5,99.9,0.2
+20843,Snowden Int'L High,60.5,45.2,Boston,39.5,0,35.2,14.3,00350690,2005,0,5,99.9,0.2
 20845,Solomon Lewenberg Middle,43.2,83.4,Boston,56.8,0,14,0.7,00350450,2005,0,1.7,100.0,0.2
 20846,Tech Boston Academy,33.9,52.3,Boston,66.1,0,30.3,6,00350539,2005,0,11,100.1,0.5
 20847,The English High,49.6,46.6,Boston,50.4,0,46.7,1.6,00350535,2005,0,5,100.0,0.1
@@ -127,7 +127,7 @@ id,school,Females,AfricanAmerican,district,Males,Multi,Hispanic,Asian,ORGCODE,ye
 20855,William E Russell,54.8,37.1,Boston,45.2,0,51.6,4.1,00350366,2005,0,7.2,100.0,0
 20856,William Ellery Channing,48.9,75.9,Boston,51.1,0,18,0.4,00350360,2005,0,5.8,100.1,0
 20857,William H Ohrenberger,45.9,34.7,Boston,54.1,0,50.2,3.1,00350258,2005,0,11.2,100.0,0.8
-20858,William McKinley,19.7,62.5,Boston,80.3,0,21.8,0.5,00350363,2005,0,14.1,100.1,1.2
+20858,William Mckinley,19.7,62.5,Boston,80.3,0,21.8,0.5,00350363,2005,0,14.1,100.1,1.2
 20859,William Monroe Trotter,47.5,84,Boston,52.5,0,12.8,0,00350370,2005,0,1.4,100.0,1.8
 20860,Winship Elementary,45.6,24.6,Boston,54.4,0,43.1,18.5,00350374,2005,0,12.3,100.0,1.5
 20861,Wm B Rogers Middle,42.4,65,Boston,57.6,0,14.8,10.4,00350470,2005,0,9.6,100.0,0.2

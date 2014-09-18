@@ -43,8 +43,8 @@ def load(f, year):
 
     for row in reader:
         district, school = row.pop('SCHOOL').split(' - ', 1)
-        row['district'] = district.strip()
-        row['school'] = school.strip()
+        row['district'] = district.title().strip()
+        row['school'] = school.title().strip()
         row['year'] = year
 
         # fields were renamed in later years, so rename and default to zero

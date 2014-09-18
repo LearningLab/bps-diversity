@@ -1,7 +1,7 @@
 id,school,Females,AfricanAmerican,district,Males,Multi,Hispanic,Asian,ORGCODE,year,PacificIslander,White,total,NativeAmerican
 30100,Agassiz,48.8,17.1,Boston,51.2,1.2,78.3,0.6,00350007,2010,0,2.6,100.0,0.2
 30101,Another Course To College,58,44.9,Boston,42,0,40.6,3.9,00350541,2010,0,10.6,100.0,0
-30102,Baldwin ELC,46.4,22.1,Boston,53.6,0,40,15,00350003,2010,0,22.9,100.0,0
+30102,Baldwin Elc,46.4,22.1,Boston,53.6,0,40,15,00350003,2010,0,22.9,100.0,0
 30103,Beethoven,44.6,22.5,Boston,55.4,3.5,35.4,6.3,00350021,2010,0.4,31.6,100.1,0.4
 30104,Blackstone,48,13.9,Boston,52,1.1,82.4,0.5,00350390,2010,0,2.1,100.0,0
 30105,Boston Adult Academy,42.3,56.4,Boston,57.7,0,29.5,13.2,00350548,2010,0,0.9,100.0,0
@@ -13,14 +13,14 @@ id,school,Females,AfricanAmerican,district,Males,Multi,Hispanic,Asian,ORGCODE,ye
 30111,Boston Middle School Academy,0,83.3,Boston,100,0,8.3,0,00350413,2010,0,8.3,99.9,0
 30112,Boston Teachers Union School,49.3,37.3,Boston,50.7,0.7,42.3,2.1,00350012,2010,0,17.6,100.0,0
 30113,Brighton High,46.2,38,Boston,53.8,0.4,52.7,3.3,00350505,2010,0.1,5,100.0,0.5
-30114,Brook Farm Business and Service Career Academ,46.8,35.4,Boston,53.2,0.9,51.2,2,00350576,2010,0,10.2,100.0,0.3
+30114,Brook Farm Business And Service Career Academ,46.8,35.4,Boston,53.2,0.9,51.2,2,00350576,2010,0,10.2,100.0,0.3
 30115,Carter Developmental Center,37.5,50,Boston,62.5,0,33.3,8.3,00350036,2010,0,8.3,99.9,0
 30116,Charles H Taylor,45.4,79.6,Boston,54.6,1.5,15.8,1.5,00350054,2010,0,0.6,100.1,1.1
 30117,Charles Sumner,44.5,19.5,Boston,55.5,1.4,71.6,1,00350052,2010,0.2,6.4,100.1,0
 30118,Charlestown High,48.6,39.3,Boston,51.4,0.9,30.4,22.4,00350515,2010,0,6.8,100.0,0.2
 30119,Clarence R Edwards Middle,45.8,24.2,Boston,54.2,1.4,46.6,14.9,00350430,2010,0,12.5,100.0,0.4
 30120,Community Academy,32.1,79.2,Boston,67.9,0,15.1,3.8,00350518,2010,0,1.9,100.0,0
-30121,Community Academy of Science and Health,51.6,74.6,Boston,48.4,0.5,22.8,0.8,00350581,2010,0,1.1,100.1,0.3
+30121,Community Academy Of Science And Health,51.6,74.6,Boston,48.4,0.5,22.8,0.8,00350581,2010,0,1.1,100.1,0.3
 30122,Curley K-8 School,47.7,18.6,Boston,52.3,1.6,58.8,3,00350020,2010,0,18,100.0,0
 30123,Curtis Guild,45.5,2,Boston,54.5,0,86.2,0.7,00350062,2010,0,10.8,100.0,0.3
 30124,Dante Alighieri,51.5,8.5,Boston,48.5,3.1,71.5,3.8,00350066,2010,0,13.1,100.0,0
@@ -30,13 +30,13 @@ id,school,Females,AfricanAmerican,district,Males,Multi,Hispanic,Asian,ORGCODE,ye
 30128,Donald Mckay,48,1.8,Boston,52,0.7,89.2,0.8,00350080,2010,0,7.5,100.0,0
 30129,Dorchester Academy,51.3,65,Boston,48.7,0.7,27.6,3.2,00350651,2010,0,2.6,100.0,0.9
 30130,Dr. Catherine Ellison-Rosa Parks Early Ed Sch,48.9,54.3,Boston,51.1,2.1,36.2,6.4,00350008,2010,0,1.1,100.1,0
-30131,East Boston ECC,47.3,2.4,Boston,52.7,1.2,79,2.4,00350009,2010,0,13.8,100.0,1.2
+30131,East Boston Ecc,47.3,2.4,Boston,52.7,1.2,79,2.4,00350009,2010,0,13.8,100.0,1.2
 30132,East Boston High,45.6,15.7,Boston,54.4,0.9,65.1,2,00350530,2010,0,16,100.0,0.3
 30133,Edison K-8,45.2,30.1,Boston,54.8,2.1,42.9,12.5,00350375,2010,0.1,10.9,99.9,1.3
 30134,Edward Everett,46.2,39.2,Boston,53.8,4.2,22.7,21.2,00350088,2010,0.4,12.3,100.0,0
 30135,Egleston Comm High School,61.3,40.9,Boston,38.7,1.1,52.7,1.1,00350543,2010,0,4.3,100.1,0
-30136,ELC - East Zone,50,51.6,Boston,50,3.2,41.1,0.8,00350005,2010,0,3.2,99.9,0
-30137,ELC - West Zone,48.9,34,Boston,51.1,3.2,38.3,5.3,00350006,2010,0,18.1,100.0,1.1
+30136,Elc - East Zone,50,51.6,Boston,50,3.2,41.1,0.8,00350005,2010,0,3.2,99.9,0
+30137,Elc - West Zone,48.9,34,Boston,51.1,3.2,38.3,5.3,00350006,2010,0,18.1,100.0,1.1
 30138,Elihu Greenwood,42.9,56.2,Boston,57.1,1.4,38.3,0.3,00350094,2010,0,3.2,100.0,0.6
 30139,Eliot Elementary,49.1,17,Boston,50.9,3.6,41.9,4.3,00350096,2010,0,33.2,100.0,0
 30140,Ellis Mendell,50.5,33.9,Boston,49.5,2.2,57,0.5,00350100,2010,0,6.5,100.1,0
@@ -52,7 +52,7 @@ id,school,Females,AfricanAmerican,district,Males,Multi,Hispanic,Asian,ORGCODE,ye
 30150,Haynes Early Education Center,50.5,39,Boston,49.5,3.3,51.1,2.2,00350010,2010,0,3.8,99.9,0.5
 30151,Henry Grew,46.3,56.9,Boston,53.7,2.4,35.7,0.8,00350135,2010,0,3.9,100.1,0.4
 30152,Higginson/Lewis K-8,46.5,55.1,Boston,53.5,2.1,38.6,0.8,00350377,2010,0,2.6,100.0,0.8
-30153,Horace Mann School for the Deaf,48.6,31.2,Boston,51.4,2.2,36.2,10.9,00350750,2010,0,19.6,100.1,0
+30153,Horace Mann School For The Deaf,48.6,31.2,Boston,51.4,2.2,36.2,10.9,00350750,2010,0,19.6,100.1,0
 30154,Hugh Roe O'Donnell,45.1,3,Boston,54.9,0.7,77.2,4.9,00350141,2010,0,14.2,100.0,0
 30155,Jackson Mann,46.7,36,Boston,53.3,2.6,37.9,10.4,00350013,2010,0,12.6,100.1,0.6
 30156,James Condon Elem,50.1,41,Boston,49.9,3.2,27.2,8.6,00350146,2010,0,19.3,100.0,0.7
@@ -65,7 +65,7 @@ id,school,Females,AfricanAmerican,district,Males,Multi,Hispanic,Asian,ORGCODE,ye
 30163,John F Kennedy,47.7,16.8,Boston,52.3,0.9,80.1,0.3,00350166,2010,0,2,100.1,0
 30164,John Marshall,50.1,52.3,Boston,49.9,2,40.9,1.8,00350178,2010,0.1,1.4,99.9,1.4
 30165,John P Holland,49.4,44.5,Boston,50.6,1.4,34.5,17.9,00350167,2010,0.3,1.2,100.0,0.2
-30166,John W McCormack,43.1,36.5,Boston,56.9,1.1,39,12.6,00350179,2010,0.2,10.3,100.0,0.3
+30166,John W Mccormack,43.1,36.5,Boston,56.9,1.1,39,12.6,00350179,2010,0.2,10.3,100.0,0.3
 30167,John Winthrop,48.8,55,Boston,51.2,0.9,41,0.6,00350180,2010,0.6,1.9,100.0,0
 30168,Joseph J Hurley,50,13,Boston,50,1.9,71,0.9,00350182,2010,0,13.3,100.1,0
 30169,Joseph Lee,47.8,63.8,Boston,52.2,2.3,26.5,3.8,00350183,2010,0.6,2.6,99.9,0.3
@@ -98,7 +98,7 @@ id,school,Females,AfricanAmerican,district,Males,Multi,Hispanic,Asian,ORGCODE,ye
 30196,Odyssey High School,43.7,38.9,Boston,56.3,1.7,30.9,7.7,00350577,2010,0,20.6,100.1,0.3
 30197,Oliver Hazard Perry,48.1,18,Boston,51.9,1.3,15.1,3.8,00350255,2010,0,61.9,100.1,0
 30198,Orchard Gardens,51.7,31.7,Boston,48.3,0.9,64.4,0.4,00350257,2010,0,2.1,99.9,0.4
-30199,Parkway Academy of Technology and Health,53.1,45.9,Boston,46.9,1.3,43.4,0.9,00350574,2010,0,7.8,99.9,0.6
+30199,Parkway Academy Of Technology And Health,53.1,45.9,Boston,46.9,1.3,43.4,0.9,00350574,2010,0,7.8,99.9,0.6
 30200,Patrick F Gavin Middle,47.3,48.4,Boston,52.7,0.6,29.2,6.9,00350435,2010,0.2,14.4,99.9,0.2
 30201,Patrick J Kennedy,44.7,6.6,Boston,55.3,2.7,79.8,1.9,00350264,2010,0,8.9,99.9,0
 30202,Patrick O'Hearn,49.6,34.2,Boston,50.4,3.9,12.3,9.6,00350266,2010,0.4,36,99.9,3.5
@@ -112,10 +112,10 @@ id,school,Females,AfricanAmerican,district,Males,Multi,Hispanic,Asian,ORGCODE,ye
 30210,Samuel Adams,42.9,6.9,Boston,57.1,3.3,67.6,2.9,00350302,2010,0,18.9,100.0,0.4
 30211,Samuel W Mason,48.1,51.4,Boston,51.9,4.8,31.3,1,00350304,2010,0.5,11.1,100.1,0
 30212,Sarah Greenwood,48.9,27.3,Boston,51.1,1.6,67.6,0.8,00350308,2010,0.3,2.4,100.0,0
-30213,Snowden Int'l High,55.3,38.4,Boston,44.7,1,38.9,12.8,00350690,2010,0,8.5,99.9,0.3
+30213,Snowden Int'L High,55.3,38.4,Boston,44.7,1,38.9,12.8,00350690,2010,0,8.5,99.9,0.3
 30214,Social Justice Academy,49.2,50.5,Boston,50.8,2.3,42.4,1,00350583,2010,0,3.9,100.1,0
-30215,TechBoston Lower Academy,43.7,68.6,Boston,56.3,1.3,21.4,2.4,00350653,2010,0.2,5.4,99.9,0.6
-30216,TechBoston Upper Academy,35.6,58.1,Boston,64.4,2.8,29.2,4.6,00350654,2010,0,4.6,100.0,0.7
+30215,Techboston Lower Academy,43.7,68.6,Boston,56.3,1.3,21.4,2.4,00350653,2010,0.2,5.4,99.9,0.6
+30216,Techboston Upper Academy,35.6,58.1,Boston,64.4,2.8,29.2,4.6,00350654,2010,0,4.6,100.0,0.7
 30217,The Engineering School,32.6,51.4,Boston,67.4,0.9,38.2,2.8,00350582,2010,0.3,6.5,100.1,0
 30218,The English High,45.3,37.2,Boston,54.7,1.1,55.8,2,00350535,2010,0,3.8,100.0,0.1
 30219,Thomas J Kenny,46.2,50.6,Boston,53.8,1.2,17.7,20.9,00350328,2010,0.4,8.8,100.0,0.4
@@ -125,7 +125,7 @@ id,school,Females,AfricanAmerican,district,Males,Multi,Hispanic,Asian,ORGCODE,ye
 30223,William E Russell,47.3,27.3,Boston,52.7,3.4,54.5,11.7,00350366,2010,0.3,2.6,100.1,0.3
 30224,William Ellery Channing,49.8,64.4,Boston,50.2,1.9,29.4,0.6,00350360,2010,0,3.4,100.0,0.3
 30225,William H Ohrenberger,47.3,29.4,Boston,52.7,2.6,46.4,5.2,00350258,2010,0.2,16.2,100.0,0
-30226,William McKinley,21,53.4,Boston,79,2.7,28.5,0.2,00350363,2010,0.2,13.9,99.9,1
+30226,William Mckinley,21,53.4,Boston,79,2.7,28.5,0.2,00350363,2010,0.2,13.9,99.9,1
 30227,William Monroe Trotter,48.7,67.6,Boston,51.3,2,28.7,0.3,00350370,2010,0,0.6,100.0,0.8
 30228,Winship Elementary,50.2,22.6,Boston,49.8,1.5,46.8,12.5,00350374,2010,0,15.5,100.0,1.1
 30229,Wm B Rogers Middle,43.1,53.3,Boston,56.9,1.4,31.1,8.1,00350470,2010,0,6,100.1,0.2

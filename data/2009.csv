@@ -1,9 +1,9 @@
 id,school,Females,AfricanAmerican,district,Males,Multi,Hispanic,Asian,ORGCODE,year,PacificIslander,White,total,NativeAmerican
-28253,Academy of Public Service,54.9,65.3,Boston,45.1,0.7,28.1,2.1,00350502,2009,0.3,3.5,100.0,0
+28253,Academy Of Public Service,54.9,65.3,Boston,45.1,0.7,28.1,2.1,00350502,2009,0.3,3.5,100.0,0
 28254,Agassiz,49.8,16.9,Boston,50.2,0.9,79.4,0.2,00350007,2009,0,2.7,100.1,0
 28255,Alexander Hamilton,50,33.1,Boston,50,1.3,40,11.3,00350011,2009,0,13.1,100.1,1.3
 28256,Another Course To College,59,43.7,Boston,41,0.5,36.5,5,00350541,2009,0,14.4,100.1,0
-28257,Baldwin ELC,46.3,18.9,Boston,53.7,3.7,30.5,19.5,00350003,2009,0,26.2,100.0,1.2
+28257,Baldwin Elc,46.3,18.9,Boston,53.7,3.7,30.5,19.5,00350003,2009,0,26.2,100.0,1.2
 28258,Beethoven,44.5,29.9,Boston,55.5,2.8,38.1,6,00350021,2009,0,22.1,100.0,1.1
 28259,Blackstone,48.2,15.2,Boston,51.8,1.2,78.8,0.5,00350390,2009,0.2,4.1,100.0,0
 28260,Boston Adult Academy,45.6,54.4,Boston,54.4,1.1,39.2,4.6,00350548,2009,0,0.7,100.0,0
@@ -14,14 +14,14 @@ id,school,Females,AfricanAmerican,district,Males,Multi,Hispanic,Asian,ORGCODE,ye
 28265,Boston Latin Academy,56.1,28.3,Boston,43.9,1.9,16.5,21.1,00350545,2009,0,31.3,99.9,0.8
 28266,Boston Middle School Academy,14.3,64.3,Boston,85.7,0,28.6,0,00350413,2009,0,7.1,100.0,0
 28267,Brighton High,47.3,39.7,Boston,52.7,0.3,51.4,2.9,00350505,2009,0.1,5.2,100.0,0.4
-28268,Brook Farm Business and Service Career Academy,47.8,37.2,Boston,52.2,0.9,47.8,1.8,00350576,2009,0,12,100.0,0.3
+28268,Brook Farm Business And Service Career Academy,47.8,37.2,Boston,52.2,0.9,47.8,1.8,00350576,2009,0,12,100.0,0.3
 28269,Carter Developmental Center,37.5,58.3,Boston,62.5,0,25,8.3,00350036,2009,0,8.3,99.9,0
 28270,Charles H Taylor,47.6,82.7,Boston,52.4,1.6,12.7,1.2,00350054,2009,0,1.2,100.0,0.6
 28271,Charles Sumner,44.3,21.3,Boston,55.7,1.8,66.4,2,00350052,2009,0,8.5,100.0,0
 28272,Charlestown High,46.4,42.5,Boston,53.6,0.6,29.6,21.2,00350515,2009,0,5.9,100.0,0.2
 28273,Clarence R Edwards Middle,47.2,26,Boston,52.8,1.3,41.4,18.6,00350430,2009,0,11.9,100.0,0.8
 28274,Community Academy,42.9,79.4,Boston,57.1,0,19,0,00350518,2009,0,1.6,100.0,0
-28275,Community Academy of Science and Health,52.8,74.5,Boston,47.2,0.8,21.6,1.3,00350581,2009,0,1.5,100.0,0.3
+28275,Community Academy Of Science And Health,52.8,74.5,Boston,47.2,0.8,21.6,1.3,00350581,2009,0,1.5,100.0,0.3
 28276,Curley K-8 School,48.2,20.6,Boston,51.8,1.9,58.7,3.9,00350020,2009,0,14.7,99.9,0.1
 28277,Curtis Guild,47.2,2.1,Boston,52.8,0.4,83.3,2.1,00350062,2009,0,11.3,99.9,0.7
 28278,Dante Alighieri,44.8,8.2,Boston,55.2,2.2,69.4,3,00350066,2009,0,17.2,100.0,0
@@ -30,12 +30,12 @@ id,school,Females,AfricanAmerican,district,Males,Multi,Hispanic,Asian,ORGCODE,ye
 28281,Dennis C Haley,49,42.5,Boston,51,3.1,35,2,00350077,2009,0,17,99.9,0.3
 28282,Donald Mckay,49.8,2.3,Boston,50.2,0.4,88.3,0.4,00350080,2009,0,8.6,100.0,0
 28283,Dr. Catherine Ellison-Rosa Parks Early Ed School,48.1,51.3,Boston,51.9,2.7,38.5,6.4,00350008,2009,0,1.1,100.0,0
-28284,East Boston ECC,49.4,2.9,Boston,50.6,0.6,77,3.4,00350009,2009,0,16.1,100.0,0
+28284,East Boston Ecc,49.4,2.9,Boston,50.6,0.6,77,3.4,00350009,2009,0,16.1,100.0,0
 28285,East Boston High,47,16.3,Boston,53,0.9,62.2,2,00350530,2009,0,18,100.0,0.6
 28286,Edward Everett,45,47.1,Boston,55,2.8,20.1,18.3,00350088,2009,0.3,11.4,100.0,0
 28287,Egleston Comm High School,66.7,32.4,Boston,33.3,2,59.8,1,00350543,2009,0,3.9,100.1,1
-28288,ELC - East Zone,57.6,61,Boston,42.4,3.4,33.1,0,00350005,2009,0,2.5,100.0,0
-28289,ELC - West Zone,44.3,30.9,Boston,55.7,2.1,43.3,5.2,00350006,2009,0,18.6,100.1,0
+28288,Elc - East Zone,57.6,61,Boston,42.4,3.4,33.1,0,00350005,2009,0,2.5,100.0,0
+28289,Elc - West Zone,44.3,30.9,Boston,55.7,2.1,43.3,5.2,00350006,2009,0,18.6,100.1,0
 28290,Elihu Greenwood,46.6,59,Boston,53.4,1.4,35.8,0,00350094,2009,0,3.3,100.1,0.6
 28291,Eliot Elementary,47.5,16.5,Boston,52.5,3.9,39.6,5.1,00350096,2009,0,34.9,100.0,0
 28292,Ellis Mendell,46.8,33.8,Boston,53.2,1.5,62.7,0,00350100,2009,0,2,100.0,0
@@ -51,7 +51,7 @@ id,school,Females,AfricanAmerican,district,Males,Multi,Hispanic,Asian,ORGCODE,ye
 28302,Haynes Early Education Center,47.8,41.2,Boston,52.2,3.8,47.8,4.4,00350010,2009,0,2.7,99.9,0
 28303,Henry Grew,42.7,55.6,Boston,57.3,1.7,36.4,0.8,00350135,2009,0,5,99.9,0.4
 28304,Henry L Higginson,47.2,65.4,Boston,52.8,1.9,30.8,0.6,00350137,2009,0,1.3,100.0,0
-28305,Horace Mann School for the Deaf,52.3,31.5,Boston,47.7,1.5,36.9,9.2,00350750,2009,0,20.8,99.9,0
+28305,Horace Mann School For The Deaf,52.3,31.5,Boston,47.7,1.5,36.9,9.2,00350750,2009,0,20.8,99.9,0
 28306,Hugh Roe O'Donnell,44.7,3.4,Boston,55.3,1.1,71.6,5.3,00350141,2009,0,18.6,100.0,0
 28307,Jackson Mann,44.4,36.5,Boston,55.6,2.3,35.6,9.3,00350013,2009,0,15.8,100.1,0.6
 28308,James A Garfield Elem,46.6,32.8,Boston,53.4,4.6,37,8.4,00350152,2009,0,16.8,100.0,0.4
@@ -65,7 +65,7 @@ id,school,Females,AfricanAmerican,district,Males,Multi,Hispanic,Asian,ORGCODE,ye
 28316,John F Kennedy,49,19.9,Boston,51,0.6,77.6,0,00350166,2009,0,1.9,100.0,0
 28317,John Marshall,49.1,56.9,Boston,50.9,2.2,35.8,1.6,00350178,2009,0.2,1.4,100.1,2
 28318,John P Holland,47.2,45.8,Boston,52.8,1.6,32.7,17.6,00350167,2009,0.7,1.4,99.9,0.1
-28319,John W McCormack,47,38.1,Boston,53,1.3,35.8,13.5,00350179,2009,0,10.5,100.0,0.8
+28319,John W Mccormack,47,38.1,Boston,53,1.3,35.8,13.5,00350179,2009,0,10.5,100.0,0.8
 28320,John Winthrop,50.8,54.3,Boston,49.2,0.6,41.8,0.6,00350180,2009,0.6,1.3,99.8,0.6
 28321,Joseph J Hurley,49.2,16.7,Boston,50.8,1.2,68.1,0.9,00350182,2009,0,12.2,100.0,0.9
 28322,Joseph Lee,45.6,66.1,Boston,54.4,2.9,24.1,3.6,00350183,2009,0.3,2.3,100.0,0.7
@@ -100,7 +100,7 @@ id,school,Females,AfricanAmerican,district,Males,Multi,Hispanic,Asian,ORGCODE,ye
 28351,Odyssey High School,46.1,42.4,Boston,53.9,2,27.2,6.7,00350577,2009,0,21.3,99.9,0.3
 28352,Oliver Hazard Perry,50.2,14.9,Boston,49.8,1.6,19.3,4,00350255,2009,0,59.8,100.0,0.4
 28353,Orchard Gardens,50.8,33.1,Boston,49.2,1.2,62.8,0.3,00350257,2009,0,2,100.0,0.6
-28354,Parkway Academy of Technology and Health,54.5,51.9,Boston,45.5,0.6,36.4,1,00350574,2009,0,9.1,100.0,1
+28354,Parkway Academy Of Technology And Health,54.5,51.9,Boston,45.5,0.6,36.4,1,00350574,2009,0,9.1,100.0,1
 28355,Patrick F Gavin Middle,46.6,46.6,Boston,53.4,0.9,29.1,8.6,00350435,2009,0,14.6,100.0,0.2
 28356,Patrick J Kennedy,45.9,6.6,Boston,54.1,2.3,76.4,1.5,00350264,2009,0,13.1,99.9,0
 28357,Patrick O'Hearn,50.6,36.5,Boston,49.4,5.2,10.7,9.4,00350266,2009,0.4,34.3,99.9,3.4
@@ -116,7 +116,7 @@ id,school,Females,AfricanAmerican,district,Males,Multi,Hispanic,Asian,ORGCODE,ye
 28367,Samuel Adams,42.8,7,Boston,57.2,2.6,67.9,2.2,00350302,2009,0,19.9,100.0,0.4
 28368,Samuel W Mason,51.7,57.1,Boston,48.3,3.9,27.1,1.5,00350304,2009,0.5,9.9,100.0,0
 28369,Sarah Greenwood,48.6,28.9,Boston,51.4,1.8,65.9,0.8,00350308,2009,0.3,2.3,100.0,0
-28370,Snowden Int'l High,51.5,42,Boston,48.5,1.2,35.8,11.2,00350690,2009,0,9.2,99.9,0.5
+28370,Snowden Int'L High,51.5,42,Boston,48.5,1.2,35.8,11.2,00350690,2009,0,9.2,99.9,0.5
 28371,Social Justice Academy,49,57.2,Boston,51,0.9,36.4,0.9,00350583,2009,0.3,4.4,100.1,0
 28372,Solomon Lewenberg Middle,44.5,72.9,Boston,55.5,0.6,22.7,0.6,00350450,2009,0,2.8,99.9,0.3
 28373,Tech Boston Academy,35.1,56.4,Boston,64.9,2.4,28.5,6.4,00350539,2009,0,5.9,100.1,0.5
@@ -130,7 +130,7 @@ id,school,Females,AfricanAmerican,district,Males,Multi,Hispanic,Asian,ORGCODE,ye
 28381,William E Russell,52.2,25.3,Boston,47.8,3.3,55.5,11.5,00350366,2009,0.3,3.6,100.0,0.5
 28382,William Ellery Channing,49.7,58.2,Boston,50.3,2.2,33,0.9,00350360,2009,0,5.3,99.9,0.3
 28383,William H Ohrenberger,50.7,25.8,Boston,49.3,2.9,51.1,4.8,00350258,2009,0.2,15.2,100.0,0
-28384,William McKinley,20.3,55.3,Boston,79.7,2.4,27.3,0.5,00350363,2009,0.2,13.5,99.9,0.7
+28384,William Mckinley,20.3,55.3,Boston,79.7,2.4,27.3,0.5,00350363,2009,0.2,13.5,99.9,0.7
 28385,William Monroe Trotter,48.2,69.9,Boston,51.8,2.9,23.8,0.8,00350370,2009,0.5,1.3,100.0,0.8
 28386,Winship Elementary,49.1,25.7,Boston,50.9,0.4,47.8,13,00350374,2009,0,13,99.9,0
 28387,Wm B Rogers Middle,46.8,54,Boston,53.2,1,28.7,9,00350470,2009,0,7.4,100.1,0

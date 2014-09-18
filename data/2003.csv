@@ -4,7 +4,7 @@ id,school,Females,AfricanAmerican,district,Males,Multi,Hispanic,Asian,ORGCODE,ye
 16943,Another Course To College,60.3,57.1,Boston,39.7,0,7.9,5.6,00350541,2003,0,28.6,100.0,0.8
 16944,Beethoven,45.6,51.2,Boston,54.4,0,18.4,4.2,00350021,2003,0,25.1,100.0,1.1
 16945,Blackstone,45.9,25.5,Boston,54.1,0,70.2,0.7,00350390,2003,0,3.3,100.0,0.3
-16946,Blue Hill Ave ECC,49.5,54.2,Boston,50.5,0,42.6,1.6,00350010,2003,0,1.6,100.0,0
+16946,Blue Hill Ave Ecc,49.5,54.2,Boston,50.5,0,42.6,1.6,00350010,2003,0,1.6,100.0,0
 16947,Boston Adult Academy,40.3,69.6,Boston,59.7,0,13.4,13.4,00350548,2003,0,3.5,99.9,0
 16948,Boston Arts Academy,60.5,47.7,Boston,39.5,0,24.7,1.8,00350546,2003,0,25.5,100.0,0.3
 16949,Boston Community Leadership Academy,56.2,57.5,Boston,43.8,0,20.6,5,00350558,2003,0,16.3,99.9,0.5
@@ -25,13 +25,13 @@ id,school,Females,AfricanAmerican,district,Males,Multi,Hispanic,Asian,ORGCODE,ye
 16965,Dennis C Haley,44.3,75,Boston,55.7,0,18.2,2.7,00350077,2003,0,3.4,100.0,0.7
 16966,Donald Mckay,49.7,4.8,Boston,50.3,0,88.9,0.3,00350080,2003,0,5.9,99.9,0
 16967,Dorchester High,43.5,70.5,Boston,56.5,0,25.3,1.1,00350520,2003,0,2.7,100.0,0.4
-16968,East Boston ECC,51.3,12.6,Boston,48.7,0,69.6,2.1,00350009,2003,0,15.7,100.0,0
+16968,East Boston Ecc,51.3,12.6,Boston,48.7,0,69.6,2.1,00350009,2003,0,15.7,100.0,0
 16969,East Boston High,44.7,24.4,Boston,55.3,0,47.1,3.7,00350530,2003,0,24.2,99.9,0.5
 16971,Edward Everett,53.6,38.9,Boston,46.4,0,13.7,22.9,00350088,2003,0,23.9,100.1,0.7
 16972,Egleston Comm High School,50,69,Boston,50,0,31,0,00350543,2003,0,0,100.0,0
-16973,ELC - East Zone,43,78.5,Boston,57,0,11.9,8.1,00350005,2003,0,1.5,100.0,0
-16974,ELC - North Zone,40.5,22.6,Boston,59.5,0,20.2,36.9,00350003,2003,0,20.2,99.9,0
-16975,ELC - West Zone,45,42,Boston,55,0,32,2,00350006,2003,0,22,100.0,2
+16973,Elc - East Zone,43,78.5,Boston,57,0,11.9,8.1,00350005,2003,0,1.5,100.0,0
+16974,Elc - North Zone,40.5,22.6,Boston,59.5,0,20.2,36.9,00350003,2003,0,20.2,99.9,0
+16975,Elc - West Zone,45,42,Boston,55,0,32,2,00350006,2003,0,22,100.0,2
 16976,Elihu Greenwood,49.2,75.7,Boston,50.8,0,16.9,0.7,00350094,2003,0,5.8,100.1,1
 16977,Eliot Elementary,48.6,38.1,Boston,51.4,0,38.1,2.2,00350096,2003,0,21.5,99.9,0
 16978,Ellis Mendell,43.7,54.4,Boston,56.3,0,42.3,0.5,00350100,2003,0,2.3,100.0,0.5
@@ -64,7 +64,7 @@ id,school,Females,AfricanAmerican,district,Males,Multi,Hispanic,Asian,ORGCODE,ye
 17006,John F Kennedy,46.7,27.8,Boston,53.3,0,69.7,0.7,00350166,2003,0,1.8,100.0,0
 17007,John Marshall,45.2,64.3,Boston,54.8,0,31.5,1.6,00350178,2003,0,1.8,100.0,0.8
 17008,John P Holland,46.9,49.9,Boston,53.1,0,28.8,19.2,00350167,2003,0,1.2,99.9,0.8
-17009,John W McCormack,51.3,36.7,Boston,48.7,0,40.6,12.8,00350179,2003,0,9.1,100.0,0.8
+17009,John W Mccormack,51.3,36.7,Boston,48.7,0,40.6,12.8,00350179,2003,0,9.1,100.0,0.8
 17010,John Winthrop,48.3,63.9,Boston,51.7,0,30.7,0.9,00350180,2003,0,3.8,99.9,0.6
 17011,Joseph J Hurley,50.8,28.9,Boston,49.2,0,68.9,0.3,00350182,2003,0,1.6,100.0,0.3
 17012,Joseph Lee,42.5,81.7,Boston,57.5,0,11.3,3.1,00350183,2003,0,3.6,100.0,0.3
@@ -83,7 +83,7 @@ id,school,Females,AfricanAmerican,district,Males,Multi,Hispanic,Asian,ORGCODE,ye
 17025,Mary Lyon,33.6,34.4,Boston,66.4,0,17.2,7.4,00350004,2003,0,41,100.0,0
 17026,Mather,48.6,53.3,Boston,51.4,0,9.1,32.4,00350227,2003,0,5,100.0,0.2
 17027,Mattahunt,47,66.9,Boston,53,0,29.4,0.3,00350226,2003,0,3.2,100.1,0.3
-17028,Mattapan ECC,49.2,65.4,Boston,50.8,0,21.8,10.1,00350008,2003,0,2.8,100.1,0
+17028,Mattapan Ecc,49.2,65.4,Boston,50.8,0,21.8,10.1,00350008,2003,0,2.8,100.1,0
 17029,Maurice J Tobin,52.4,29.9,Boston,47.6,0,68.7,0.6,00350229,2003,0,0.8,100.0,0
 17030,Michael J Perkins,52.3,46.8,Boston,47.7,0,14.8,10.6,00350231,2003,0,26.9,100.0,0.9
 17032,Mission Hill School,53.3,58,Boston,46.7,0,15.4,3.6,00350382,2003,0,21.9,100.1,1.2
@@ -110,7 +110,7 @@ id,school,Females,AfricanAmerican,district,Males,Multi,Hispanic,Asian,ORGCODE,ye
 17057,Samuel Adams,45.3,18.8,Boston,54.7,0,47.8,2.4,00350302,2003,0,31,100.0,0
 17058,Samuel W Mason,43.5,64.4,Boston,56.5,0,26.2,1,00350304,2003,0,8.4,100.0,0
 17059,Sarah Greenwood,54,37.8,Boston,46,0,60.8,0.5,00350308,2003,0,1,100.1,0
-17060,Snowden Int'l High,54.1,48.9,Boston,45.9,0,27.5,11.9,00350690,2003,0,11,100.0,0.7
+17060,Snowden Int'L High,54.1,48.9,Boston,45.9,0,27.5,11.9,00350690,2003,0,11,100.0,0.7
 17061,Solomon Lewenberg Middle,45.7,85.3,Boston,54.3,0,9.6,1.9,00350450,2003,0,2.7,100.0,0.5
 17062,South Boston High,43.4,46.8,Boston,56.6,0,16.5,13.7,00350570,2003,0,22.6,100.1,0.5
 17063,Tech Boston Academy,40.8,53.9,Boston,59.2,0,19.7,5.3,00350539,2003,0,19.7,99.9,1.3
@@ -126,7 +126,7 @@ id,school,Females,AfricanAmerican,district,Males,Multi,Hispanic,Asian,ORGCODE,ye
 17073,William Ellery Channing,45.9,81.6,Boston,54.1,0,10.8,1.3,00350360,2003,0,5.9,99.9,0.3
 17074,William H Ohrenberger,49.7,30.9,Boston,50.3,0,53.7,2.5,00350258,2003,0,12.5,100.0,0.4
 17075,William H Taft Middle,48,43.8,Boston,52,0,35,9.1,00350480,2003,0,11.6,100.1,0.6
-17076,William McKinley,19,64.3,Boston,81,0,18.6,0.6,00350363,2003,0,15.4,100.0,1.1
+17076,William Mckinley,19,64.3,Boston,81,0,18.6,0.6,00350363,2003,0,15.4,100.0,1.1
 17077,William Monroe Trotter,45.7,84.9,Boston,54.3,0,11.3,0,00350370,2003,0,1.5,100.1,2.4
 17078,Winship Elementary,44.3,13.3,Boston,55.7,0,66.4,7,00350374,2003,0,11.4,99.9,1.8
 17079,Wm B Rogers Middle,48.1,65,Boston,51.9,0,13.4,10.9,00350470,2003,0,10.3,100.0,0.4
