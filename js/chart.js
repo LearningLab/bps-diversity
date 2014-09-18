@@ -42,7 +42,10 @@ var slider = $('#slider').noUiSlider({
 });
 
 slider.on('set', function(e, value) {
-    update_schools(+value);
+    value = +value;
+    update_schools(value);
+
+    $('h1 .year').text(_.keys(urls)[value]);
 });
 
 // scales, simple percents
