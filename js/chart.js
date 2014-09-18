@@ -14,7 +14,17 @@ var margin = {top: 10, right: 10, bottom: 10, left: 10}
 
 var chart = d3.select('#chart');
 
-RACE_FIELDS = ['AfricanAmerican', 'Asian', 'Hispanic', 'NativeAmerican', 'White', 'PacificIslander', 'Multi'];
+var RACE_KEY = {
+    AfricanAmerican: 'African American', 
+    Asian: 'Asian', 
+    Hispanic: 'Hispanic', 
+    NativeAmerican: 'Native American', 
+    White: 'White', 
+    PacificIslander: 'Pacific Islander', 
+    Multi: 'Multi-race'
+};
+
+var RACE_FIELDS = _.keys(RACE_KEY).sort();
 
 var urls = {
     1994: 'data/1994.csv',
@@ -23,7 +33,7 @@ var urls = {
 
 // scales, simple percents
 var x = d3.scale.linear()
-    .domain([0, 101])
+    .domain([0, 102]) // handling rounding, should be a better way
     .range([0, 100]);
 
 var color = d3.scale.category20()
@@ -33,6 +43,15 @@ queue()
     .defer(d3.csv, 'data/1994.csv', numerics)
     .defer(d3.csv, 'data/2014.csv', numerics)
     .await(render);
+
+// make a legend
+d3.select('#legend ul')
+    .selectAll('li.key')
+    .data(_.pairs(RACE_KEY).sort(function(a, b) { return d3.ascending(a[0], b[0]); }))
+  .enter().append('li')
+    .attr('class', function(d) { return 'key ' + d[0]; })
+    .style('background-color', function(d) { return color(d[0]); })
+    .text(function(d) { return d[1]; });
 
 function render(err, data94, data14) {
 
@@ -45,7 +64,6 @@ function render(err, data94, data14) {
         .data(data[2014], function(d) { return d.ORGCODE; });
 
     rows.enter().call(render_schools);
-
 }
 
 /***
@@ -106,7 +124,7 @@ function extract_race_data(d) {
     return _(d).chain()
         .pick(RACE_FIELDS)
         .pairs()
-        .sort(function(d) { return d3.ascending(d[0]); })
+        .sort(function(a, b) { return d3.ascending(a[0], b[0]); })
         .value();
 }
 

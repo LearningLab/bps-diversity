@@ -28,3 +28,7 @@ clean:
 	rm -rf data/csv
 	rm data/*.csv
 	rm bps.db
+
+publish:
+	git push origin master
+	git push origin master:gh-pages
