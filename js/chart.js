@@ -31,6 +31,20 @@ var urls = {
     2014: 'data/2014.csv'
 };
 
+// slider
+var slider = $('#slider').noUiSlider({
+    start: 0,
+    snap: true,
+    range: {
+        min: [0],
+        max: [_.size(urls) - 1]
+    }
+});
+
+slider.on('set', function(e, value) {
+    update_schools(+value);
+});
+
 // scales, simple percents
 var x = d3.scale.linear()
     .domain([0, 102]) // handling rounding, should be a better way
@@ -42,10 +56,10 @@ var color = d3.scale.category20()
 queue()
     .defer(d3.csv, 'data/1994.csv', numerics)
     .defer(d3.csv, 'data/2014.csv', numerics)
-    .await(render);
+    .awaitAll(render);
 
 // make a legend
-d3.select('#legend ul')
+d3.select('ul#legend')
     .selectAll('li.key')
     .data(_.pairs(RACE_KEY).sort(function(a, b) { return d3.ascending(a[0], b[0]); }))
   .enter().append('li')
@@ -53,15 +67,20 @@ d3.select('#legend ul')
     .style('background-color', function(d) { return color(d[0]); })
     .text(function(d) { return d[1]; });
 
-function render(err, data94, data14) {
 
+
+function render(err, data) {
+
+    /***
     var data = window.data = {
         1994: data94,
         2014: data14
     };
+    ***/
+    window.data = data;
 
     var rows = chart.selectAll('div.school')
-        .data(data[2014], function(d) { return d.ORGCODE; });
+        .data(data[0], function(d) { return d.ORGCODE; });
 
     rows.enter().call(render_schools);
 }
@@ -95,15 +114,15 @@ function render_schools(selection) {
         .style('background-color', function(d) { return color(d[0]); })
 }
 
-function update_schools(year) {
-    var data = window.data[year];
+function update_schools(index) {
+    var data = window.data[index];
 
     if (!data) {
-        console.error('No data for %s', year);
+        console.error('No data for %s', index);
         return;
     };
 
-    console.log('Updating data for %s', year);
+    console.log('Updating data for %s', index);
 
     // bind new data to racial bars
     var schools = chart.selectAll('.school')

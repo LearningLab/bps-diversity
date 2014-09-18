@@ -8,6 +8,7 @@
 
     <!-- styles -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/nouislider/distribute/jquery.nouislider.min.css">
     <link rel="stylesheet" href="css/style.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -21,11 +22,14 @@
     <div class="container-fluid">
         <div class="chart" id="chart">
             <div class="row">
-                <h1 class="col-md-12">
-                    Racial Makeup of BPS Schools
-                </h1>
-                <div id="legend" class="col-md-12">
-                    <ul class="list-inline"></ul>
+                <div class="col-md-12">
+                    <h1>
+                        Racial Makeup of BPS Schools
+                    </h1>
+                    <ul class="list-inline" id="legend"></ul>
+                </div>
+                <div class="col-md-12">
+                    <div id="slider"></div>
                 </div>
             </div>
         </div>
@@ -41,6 +45,7 @@
     <!-- js -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="bower_components/nouislider/distribute/jquery.nouislider.all.min.js"></script>
     <script src="bower_components/d3/d3.min.js"></script>
     <script src="bower_components/underscore/underscore.js"></script>
     <script src="bower_components/queue-async/queue.min.js"></script>
