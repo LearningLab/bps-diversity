@@ -43,8 +43,8 @@ def load(f, year):
 
     for row in reader:
         district, school = row.pop('SCHOOL').split(' - ', 1)
-        row['district'] = district
-        row['school'] = school
+        row['district'] = district.strip()
+        row['school'] = school.strip()
         row['year'] = year
 
         # fields were renamed in later years, so rename and default to zero
@@ -76,6 +76,7 @@ def safe_type(obj, cast, default=None):
 
 
 if __name__ == "__main__":
-    for year in [1994, 2014]:
-        with open('data/csv/boston-%i.csv' % year) as f:
+    for year in range(1994, 2015):
+
+        with open('data/csv/enrollment-all-%i.csv' % year) as f:
             load(f, year)
