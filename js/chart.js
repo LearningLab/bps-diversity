@@ -53,12 +53,7 @@ var x = d3.scale.linear()
 
 var color = d3.scale.category20()
     .domain(RACE_FIELDS);
-/*
-queue()
-    .defer(d3.csv, 'data/1994.csv', numerics)
-    .defer(d3.csv, 'data/2014.csv', numerics)
-    .awaitAll(render);
-*/
+
 var q = queue();
 _.each(URLS, function(url, year) {
     q.defer(d3.csv, url, numerics);
@@ -78,12 +73,6 @@ d3.select('ul#legend')
 
 function render(err, data) {
 
-    /***
-    var data = window.data = {
-        1994: data94,
-        2014: data14
-    };
-    ***/
     window.data = data;
 
     var rows = chart.selectAll('div.school')

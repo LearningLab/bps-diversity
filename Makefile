@@ -7,7 +7,9 @@ enrollment:
 db: enrollment
 	python db.py
 
-csv: db
+bps.db: db
+
+csv: bps.db
 	datafreeze Freezefile.yaml
 	python urls.py
 

@@ -1,11 +1,13 @@
 common:
 
     database: sqlite:///bps.db
-    prefix: data/
     format: csv
 
 exports:
 
   - query: "SELECT * FROM schools WHERE total > 0 AND district LIKE 'boston'"
-    filename: "{{year}}.csv"
+    filename: "data/{{year}}.csv"
     mode: item
+
+  - query: "SELECT * FROM schools WHERE district = 'State Totals'"
+    filename: "totals.csv"
